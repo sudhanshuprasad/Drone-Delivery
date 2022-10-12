@@ -1,6 +1,6 @@
 from pymavlink import mavutil
 
-the_connection=mavutil.mavlink_connection('udpin:localhost:14550')
+the_connection=mavutil.mavlink_connection('udpin:localhost:14551')
 
 the_connection.wait_heartbeat()
 print("Heartbeat from system (system %u component %u)" %
