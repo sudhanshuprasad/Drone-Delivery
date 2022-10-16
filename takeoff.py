@@ -18,7 +18,8 @@ def takeoff(height):
 
     print("height: ", height)
 
-takeoff(20)
+if __name__ == "__main__":
+    takeoff(20)
 
 msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
 print(msg)
