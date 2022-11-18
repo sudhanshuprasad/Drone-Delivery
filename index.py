@@ -1,2 +1,1 @@
-import pymavlink
-print(pymavlink)
+print("hello")
