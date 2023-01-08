@@ -3,3 +3,4 @@ ardupilot
 drone-delivery/include
 drone-delivery/Lib
 drone-delivery/Scripts
+.drone-delivery-env/
